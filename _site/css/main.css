@@ -1,5 +1,46 @@
+html, body{
+	height: 100%;
+}
+
 html, body, .navbar{
 	background: rgb(249,248,245);
+}
+
+#wrap{
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -60px;
+	padding: 0 0 60px;
+}
+
+#footer{
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 11px;
+	letter-spacing: .08em;
+	color: #222;
+}
+
+#footer a{
+	font-weight: bold;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: border-bottom .2s;
+	color: #222;
+	padding: 3px 0;
+}
+
+#footer a:hover{
+	color: #222;
+	border-bottom: 2px solid rgba(0,0,0,1);
+	text-decoration: none;
+	transition: border-bottom .2s;
+}
+
+
+#footer .email{
+	margin-right: 20px;
 }
 
 .navbar{
@@ -28,7 +69,8 @@ html, body, .navbar{
 
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand a{
 	font-weight: bold;
-	border-bottom: 4px solid rgba(0,0,0,0);
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: border-bottom .2s;
 	color: #222;
 	font-size: 14px;
 	letter-spacing: .18em;
@@ -41,12 +83,13 @@ html, body, .navbar{
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand a:hover{
 	color: #222;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid rgba(0,0,0,1);
 	text-decoration: none;
+	transition: border-bottom .2s;
 }
 
 
 
 .container.site{
-	margin-top: 190px;
+	margin: 40px 0;
 }
