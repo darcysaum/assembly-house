@@ -1,3 +1,23 @@
+html, body, p, div, span, li, strong, a{
+	font-family: Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+a, a:link{ 
+	color: #6743BB;
+	transition: color .2s;
+}
+
+a:visited{ 
+	color: purple;
+	transition: color .2s;
+}
+
+a:hover{ 
+	color: #3D8AEE;
+	transition: color .2s;
+}
+
 html, body{
 	height: 100%;
 }
