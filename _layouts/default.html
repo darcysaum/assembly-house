@@ -5,26 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }} | Assembly House</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <script type="text/javascript">
+            (function() {
+                var path = '//easy.myfonts.net/v1/js?sid=182491(font-family=Aaux+Next+Light)&sid=182513(font-family=Aaux+Next+Black)&sid=182523(font-family=Aaux+Next+Regular)&sid=182526(font-family=Aaux+Next+Semi+Bold)&key=qFmwhG59sQ',
+                    protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+                    trial = document.createElement('script');
+                trial.type = 'text/javascript';
+                trial.async = true;
+                trial.src = protocol + path;
+                var head = document.getElementsByTagName("head")[0];
+                head.appendChild(trial);
+            })();
+        </script>
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
       
       <div id="wrap">
       <div class="navbar navbar-default" role="navigation">
-        <!-- <div class="logo pull-left">
-          <img src="/img/logo.png" alt="ASSEMBLY HOUSE"></img>
-        </div> -->
+        <div class="logo logo-large pull-left"></div>
         <div class="container">
+          <div class="navbar-logo">
+            <span class="logo logo-small"></span>
+          </div>
           <div class="navbar-header navbar-brand">
-            <a class="brand" href="/">ASSEMBLY HOUSE</a>
+            <a class="brand" href="/">
+              ASSEMBLY HOUSE
+            </a>
           </div>
           <div class="navbar-menu text-center">
             <ul class="nav navbar-nav">
-              <li class="/about"><a href="#">ABOUT US</a></li>
-              <li><a href="/books">OUR BOOKS</a></li>
-              <li><a href="/news" class="active">NEWS</a></li>
-              <li><a href="/distribution">DISTRIBUTION</a></li>
-              <li><a href="/collaborators">COLLABORATORS</a></li>
+              <li class="active"><a href="/">ABOUT US</a></li>
+              <li><a href="/consulting">CONSULTING</a></li>
             </ul>
           </div>
         </div>

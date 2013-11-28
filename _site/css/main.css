@@ -43,6 +43,25 @@ html, body, .navbar{
 	color: #222;
 }
 
+#footer *{
+	font-family: 'Aaux Next Regular', Helvetica, sans-serif;
+}
+
+h1, h2{
+	font-size: 17px;
+	margin-bottom: 55px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h1{
+	font-size: 20px;
+	display: block;
+}
+
+h2 {
+	font-size: 20px;
+}
 #footer a{
 	font-weight: bold;
 	border-bottom: 2px solid rgba(0,0,0,0);
@@ -72,13 +91,18 @@ html, body, .navbar{
 	display: block;
 	float: none;
 	text-align: center;
-	margin: 15px 0;
+	margin: 35px 0 20px;
 }
 
 .navbar-nav {
 	float: none;
 	margin: 0;
+	padding: 0;
 	display: block;
+	text-align: center;
+}
+
+.navbar-logo{
 	text-align: center;
 }
 
@@ -87,18 +111,39 @@ html, body, .navbar{
 	display: inline-block;
 }
 
+.logo{
+	background-image: url(/img/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.logo-large{
+	margin: 20px 0 0 30px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.logo-small{
+	display: none;
+	visibility: hidden;
+	width: 70px;
+	height: 70px;
+}
+
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand a{
 	font-weight: bold;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	transition: border-bottom .2s;
 	color: #222;
-	font-size: 14px;
+	font-size: 15px;
 	letter-spacing: .18em;
+	font-family: 'Aaux Next Black', Helvetica, sans-serif;
 	padding: 6px 0;
 }
 
 .navbar-default .navbar-nav>li{
-	padding: 0 15px;
+	padding: 9px 15px;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand a:hover{
@@ -108,8 +153,14 @@ html, body, .navbar{
 	transition: border-bottom .2s;
 }
 
-
-
 .container.site{
-	margin: 40px 0;
+	margin: 40px auto;
+	padding: 0 20px;
+	max-width: 700px;
 }
+
+@media all and (max-width:799px){
+	.logo-large{ display: none; visibility: hidden; }
+	.logo-small{ display: inline-block; visibility: visible; }
+}
+#mfPreviewBar, #mfPreviewBarShow{ display: none; visibility: hidden;}
