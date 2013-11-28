@@ -1,3 +1,4 @@
+
 html, body, p, div, span, li, strong, a{
 	font-family: Helvetica, sans-serif;
 	text-decoration: none;
@@ -162,5 +163,7 @@ h2 {
 @media all and (max-width:799px){
 	.logo-large{ display: none; visibility: hidden; }
 	.logo-small{ display: inline-block; visibility: visible; }
+	#footer .address, #footer .email{ display: block; width: 100%; padding-bottom: 10px;}
 }
+
 #mfPreviewBar, #mfPreviewBarShow{ display: none; visibility: hidden;}
