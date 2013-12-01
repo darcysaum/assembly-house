@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body>
+      {% include pagehead.html %}
+      <div id="wrap">
+        <div class="container site">
+          <div class="row">
+            <div class="span12">
+              <div class="book-page">
+                <span class="header-img"><img src='/img/secrets-promo-patter.png'></span>
+                <div class="details">
+                  <h1>{{page.title}}</h1>
+                  <span class="authors">{{page.authors}}</span>
+                  <div class="attributes">
+                    <span>{{page.pages}}</span>
+                    <span>{{page.details}}</span>
+                    <span>{{page.dimensions}}</span>
+                    <span>{{page.publish_date}}</span>
+                  </div>
+                </div>
+                <div class="thumbs">
+                  {% for image in page.thumbs %}
+                  <div class="thumb">
+                      <a href='{{image}}' _target='new'><img src='{{image}}' width='100'/></a>
+                  </div>
+                  {% endfor %}
+                </div>
+                <div class="content">
+                {{ content }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% include footer.html %}
+    </body>
+</html>

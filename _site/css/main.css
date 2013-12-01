@@ -160,10 +160,104 @@ h2 {
 	max-width: 700px;
 }
 
+
+.header-img{
+	margin-left: -120px;
+	float: left;
+	margin-right: 50px;
+}
+
+.header-img img{
+	width: 400px;
+	height: 400px;
+}
+
+.book-page .details h1{
+	font-family: 'Aaux Next Black', helvetica, sans-serif;
+	font-size: 65px;
+	line-height: 58px;
+	padding-top: 140px;
+	margin-bottom: 30px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.book-page .details .attributes{
+	margin-top: 30px;
+	font-size: 13px;
+	line-height: 23px;
+}
+
+
+.book-page .details{
+	margin-left: 330px;
+}
+
+.book-page .details .attributes span{
+	display: block;
+}
+
+.book-page .thumbs{
+	margin-top: 40px;
+	margin-left: 180px;
+}
+
+.book-page .thumbs .thumb{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+
+.book-page .content{
+	margin-left: 180px;
+	padding-top: 20px;
+	clear: both;
+}
+
+
 @media all and (max-width:799px){
 	.logo-large{ display: none; visibility: hidden; }
 	.logo-small{ display: inline-block; visibility: visible; }
 	#footer .address, #footer .email{ display: block; width: 100%; padding-bottom: 10px;}
+	
+	.header-img{
+		margin: 0;
+		float: none;
+		text-align: center;
+		display: block;
+	}
+	
+	.header-img img{
+		width: 100px;
+		height: 100px;
+	}
+	
+	.book-page .details h1{
+		font-size: 45px;
+		line-height: 40px;
+		margin: 0 35px;
+		padding-top: 20px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	
+	.book-page .details .authors{
+		margin: 0 35px;
+		display: block;
+	}
+	
+	.book-page .content{
+		margin-left: 0;
+	}
+	
+	.book-page .details{
+		margin-left: 0px;
+	}
+	
+	.book-page .thumbs{
+		margin-left: 0px;
+	}
+
 }
 
 #mfPreviewBar, #mfPreviewBarShow{ display: none; visibility: hidden;}
