@@ -269,7 +269,7 @@ h2 {
 		margin-left: 0px;
 	}
 	
-	.book-page.no-image .authors,  .book-page.no-image .attributes{
+	.book-page.no-image .details, .book-page.no-image .authors,  .book-page.no-image .attributes{
 		margin-left: 0;
 	}
 
