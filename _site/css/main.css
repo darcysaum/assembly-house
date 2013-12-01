@@ -244,6 +244,7 @@ h2 {
 	.book-page .details .authors{
 		margin: 0 35px;
 		display: block;
+		text-align: center;
 	}
 	
 	.book-page .content{
