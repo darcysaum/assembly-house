@@ -224,6 +224,49 @@ h2 {
 	clear: both;
 }
 
+.books .book{
+	display: block;
+	width: 100%;
+	margin: 0 0 100px 0;
+	clear: both;
+}
+
+.books .book .image{ 
+	float: left;
+}
+
+.books .book .image img{ 
+	width: 100px;
+}
+
+.books .book .details{
+	margin-left: 130px;
+}
+
+
+.books .book .title{
+	line-height: 18px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.books .book .title a{
+	color: black;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Aaux Next Black', helvetica, sans-serif;
+	font-size: 20px;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: border-bottom .2s;
+	color: #222;
+	padding: 3px 0;
+}
+
+.books .book .title a:hover{
+	border-bottom: 2px solid rgba(0,0,0,1);
+}
+
+
 
 @media all and (max-width:799px){
 	.logo-large{ display: none; visibility: hidden; }
