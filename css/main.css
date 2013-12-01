@@ -194,6 +194,7 @@ h2 {
 
 .book-page.no-image h1{
 	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .book-page.no-image .authors,  .book-page.no-image .attributes{
