@@ -188,6 +188,17 @@ h2 {
 	line-height: 23px;
 }
 
+.book-page.no-image .details{
+	margin-left: 20px;
+}
+
+.book-page.no-image h1{
+	padding-top: 60px;
+}
+
+.book-page.no-image .authors,  .book-page.no-image .attributes{
+	margin-left: 160px;
+}
 
 .book-page .details{
 	margin-left: 330px;
