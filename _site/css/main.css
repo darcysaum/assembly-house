@@ -1,4 +1,7 @@
+@import url("//hello.myfonts.net/count/29309e");
 
+@font-face {font-family: 'AauxNext-Black';src: url('/fonts/29309E_0_0.eot');src: url('/fonts/29309E_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/29309E_0_0.woff') format('woff'),url('webfonts/29309E_0_0.ttf') format('truetype');}
+ 
 html, body, p, div, span, li, strong, a{
 	font-family: Helvetica, sans-serif;
 	text-decoration: none;
@@ -137,7 +140,7 @@ h2 {
 	color: #222;
 	font-size: 15px;
 	letter-spacing: .18em;
-	font-family: 'Aaux Next Black', Helvetica, sans-serif;
+	font-family: 'AauxNext-Black', Helvetica, sans-serif;
 	padding: 6px 0;
 }
 
@@ -171,7 +174,7 @@ h2 {
 }
 
 .book-page .details h1{
-	font-family: 'Aaux Next Black', helvetica, sans-serif;
+	font-family: 'AauxNext-Black', helvetica, sans-serif;
 	font-size: 65px;
 	line-height: 58px;
 	padding-top: 140px;
@@ -254,7 +257,7 @@ h2 {
 	color: black;
 	display: inline-block;
 	text-transform: uppercase;
-	font-family: 'Aaux Next Black', helvetica, sans-serif;
+	font-family: 'AauxNext-Black', helvetica, sans-serif;
 	font-size: 20px;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	transition: border-bottom .2s;
