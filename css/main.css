@@ -213,6 +213,7 @@ h2 {
 
 .book-page .details {
 	margin-left: 330px;
+  margin-right: -100px;
 }
 
 .book-page .details .attributes span {
@@ -309,7 +310,6 @@ h2 {
 	
 	.header-img img {
 		width: 100px;
-		height: 100px;
 	}
 	
 	.book-page .details h1 {
@@ -333,6 +333,7 @@ h2 {
 	
 	.book-page .details {
 		margin-left: 0px;
+    margin-right: 0px;
 	}
 	
 	.book-page .thumbs {
