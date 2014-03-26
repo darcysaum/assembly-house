@@ -1,5 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-siteurl: "http://assemblyhouse.ca"
-media: "img"
+prose:
+  siteurl: "http://assemblyhouse.ca"
+  media: "img"
