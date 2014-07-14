@@ -116,6 +116,9 @@ h2 {
 	text-align: center;
 }
 
+.navbar li.active{
+  background-color:white;
+}
 .navbar li {
 	float: none;
 	display: inline-block;
@@ -164,6 +167,9 @@ h2 {
 	transition: border-bottom .2s;
 }
 
+.navbar-default .navbar-nav>li.active>a:hover{
+  	border-bottom: 2px solid rgba(0,0,0,0);
+}
 .container.site {
 	margin: 40px auto;
 	padding: 0 20px;
