@@ -12,7 +12,13 @@
                   <span class="header-img"><img src='{{page.image}}'></span>
                 {% endif %}
                 <div class="details">
-                  <h1>{{page.title}}</h1>
+                  <h1>
+                    {% if page.display_title != null %}
+                      {{page.display_title}}
+                    {% else %}
+                      {{page.title}}
+                    {% endif %}
+                  </h1>
                   <span class="authors">{{page.authors}}</span>
                   <div class="attributes">
                     <span>{{page.pages}}</span>

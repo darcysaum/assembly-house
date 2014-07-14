@@ -1,43 +1,49 @@
 @import url("//hello.myfonts.net/count/29309e");
 
-@font-face {font-family: 'AauxNext-Black';src: url('/fonts/29309E_0_0.eot');src: url('/fonts/29309E_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/29309E_0_0.woff') format('woff'),url('webfonts/29309E_0_0.ttf') format('truetype');}
+@font-face {
+	font-family: 'AauxNext-Black';
+	src: url('/fonts/29309E_0_0.eot');
+	src: url('/fonts/29309E_0_0.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/29309E_0_0.woff') format('woff'),
+		url('webfonts/29309E_0_0.ttf') format('truetype');
+}
  
-html, body, p, div, span, li, strong, a{
+html, body, p, div, span, li, strong, a {
 	font-family: Helvetica, sans-serif;
 	text-decoration: none;
 }
 
-a, a:link{ 
+a, a:link {
 	color: #6743BB;
 	transition: color .2s;
 }
 
-a:visited{ 
+a:visited {
 	color: purple;
 	transition: color .2s;
 }
 
-a:hover{ 
+a:hover {
 	color: #3D8AEE;
 	transition: color .2s;
 }
 
-html, body{
+html, body {
 	height: 100%;
 }
 
-html, body, .navbar{
+html, body, .navbar {
 	background: rgb(249,248,245);
 }
 
-#wrap{
+#wrap {
 	min-height: 100%;
 	height: auto;
 	margin: 0 auto -60px;
 	padding: 0 0 60px;
 }
 
-#footer{
+#footer {
 	height: 60px;
 	text-align: center;
 	padding-top: 15px;
@@ -46,17 +52,19 @@ html, body, .navbar{
 	color: #222;
 }
 
-#footer .copyright{
-	display: block; width: 100%; padding-top: 10px;
+#footer .copyright {
+	display: block;
+	width: 100%;
+	padding-top: 10px;
 }
-h1, h2{
+h1, h2 {
 	font-size: 17px;
 	margin-bottom: 55px;
 	font-weight: normal;
 	text-align: center;
 }
 
-h1{
+h1 {
 	font-size: 20px;
 	display: block;
 }
@@ -64,7 +72,7 @@ h1{
 h2 {
 	font-size: 20px;
 }
-#footer a{
+#footer a {
 	font-weight: bold;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	transition: border-bottom .2s;
@@ -72,7 +80,7 @@ h2 {
 	padding: 3px 0;
 }
 
-#footer a:hover{
+#footer a:hover {
 	color: #222;
 	border-bottom: 2px solid rgba(0,0,0,1);
 	text-decoration: none;
@@ -80,16 +88,16 @@ h2 {
 }
 
 
-#footer .email{
+#footer .email {
 	margin-right: 20px;
 }
 
-.navbar{
+.navbar {
 	border: none;
 	padding: 15px 0 25px;
 }
 
-.navbar-brand{
+.navbar-brand {
 	display: block;
 	float: none;
 	text-align: center;
@@ -104,21 +112,21 @@ h2 {
 	text-align: center;
 }
 
-.navbar-logo{
+.navbar-logo {
 	text-align: center;
 }
 
-.navbar li{
+.navbar li {
 	float: none;
 	display: inline-block;
 }
 
-.logo{
+.logo {
 	background-image: url(/img/logo.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-.logo-large{
+.logo-large {
 	margin: 20px 0 0 30px;
 	float: left;
 	width: 100px;
@@ -126,14 +134,14 @@ h2 {
 	position: absolute;
 }
 
-.logo-small{
+.logo-small {
 	display: none;
 	visibility: hidden;
 	width: 70px;
 	height: 70px;
 }
 
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand a{
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand a {
 	font-weight: bold;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	transition: border-bottom .2s;
@@ -144,36 +152,36 @@ h2 {
 	padding: 6px 0;
 }
 
-.navbar-default .navbar-nav>li{
+.navbar-default .navbar-nav>li {
 	padding: 9px 15px;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand a:hover{
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand a:hover {
 	color: #222;
 	border-bottom: 2px solid rgba(0,0,0,1);
 	text-decoration: none;
 	transition: border-bottom .2s;
 }
 
-.container.site{
+.container.site {
 	margin: 40px auto;
 	padding: 0 20px;
 	max-width: 700px;
 }
 
 
-.header-img{
+.header-img {
 	margin-left: -120px;
 	float: left;
 	margin-right: 50px;
 }
 
-.header-img img{
+.header-img img {
 	width: 400px;
-	height: 400px;
 }
 
-.book-page .details h1{
+.book-page .details h1 {
 	font-family: 'AauxNext-Black', helvetica, sans-serif;
 	font-size: 65px;
 	line-height: 58px;
@@ -183,77 +191,79 @@ h2 {
 	text-transform: uppercase;
 }
 
-.book-page .details .attributes{
+.book-page .details .attributes {
 	margin-top: 30px;
 	font-size: 13px;
 	line-height: 23px;
 }
 
-.book-page.no-image .details{
+.book-page.no-image .details {
 	margin-left: 20px;
 }
 
-.book-page.no-image h1{
+.book-page.no-image h1 {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 
-.book-page.no-image .authors,  .book-page.no-image .attributes{
+.book-page.no-image .authors,
+.book-page.no-image .attributes {
 	margin-left: 160px;
 }
 
-.book-page .details{
+.book-page .details {
 	margin-left: 330px;
+  margin-right: -100px;
 }
 
-.book-page .details .attributes span{
+.book-page .details .attributes span {
 	display: block;
 }
 
-.book-page .thumbs{
+.book-page .thumbs {
 	margin-top: 40px;
 	margin-left: 180px;
 }
 
-.book-page .thumbs .thumb{
+.book-page .thumbs .thumb {
 	display: inline-block;
 	margin-right: 15px;
 }
 
 
-.book-page .content{
+.book-page .content {
 	margin-left: 180px;
 	padding-top: 20px;
 	clear: both;
 }
 
-.books .book{
+.books .book {
 	display: block;
 	width: 100%;
 	margin: 0 0 100px 0;
 	clear: both;
 }
 
-.books .book .image{ 
+.books .book .image {
 	float: left;
 }
 
-.books .book .image img{ 
+.books .book .image img {
 	width: 100px;
 }
 
-.books .book .details{
+.books .book .details {
 	margin-left: 130px;
 }
 
 
-.books .book .title{
+.books .book .title {
 	line-height: 18px;
 	margin-bottom: 20px;
 	display: block;
 }
 
-.books .book .title a{
+.books .book .title a {
 	color: black;
 	display: inline-block;
 	text-transform: uppercase;
@@ -265,30 +275,44 @@ h2 {
 	padding: 3px 0;
 }
 
-.books .book .title a:hover{
+.books .book .title a:hover {
 	border-bottom: 2px solid rgba(0,0,0,1);
 }
 
 
 
-@media all and (max-width:799px){
-	.logo-large{ display: none; visibility: hidden; }
-	.logo-small{ display: inline-block; visibility: visible; }
-	#footer .address, #footer .email, #footer .copyright{ display: block; width: 100%; padding-bottom: 10px;}
-	#footer .copyright{ padding-top: 0; }
-	.header-img{
+@media all and (max-width:799px) {
+	.logo-large {
+		display: none;
+		visibility: hidden;
+	}
+	.logo-small {
+		display: inline-block;
+		visibility: visible;
+	}
+	#footer .address,
+	#footer .email,
+	#footer .copyright {
+		display: block;
+		width: 100%;
+		padding-bottom: 10px;
+	}
+		
+	#footer .copyright {
+		padding-top: 0;
+	}
+	.header-img {
 		margin: 0;
 		float: none;
 		text-align: center;
 		display: block;
 	}
 	
-	.header-img img{
+	.header-img img {
 		width: 100px;
-		height: 100px;
 	}
 	
-	.book-page .details h1{
+	.book-page .details h1 {
 		font-size: 45px;
 		line-height: 40px;
 		margin: 0 35px;
@@ -297,33 +321,35 @@ h2 {
 		text-align: center;
 	}
 	
-	.book-page .details .authors{
+	.book-page .details .authors {
 		margin: 0;
 		display: block;
 		text-align: center;
 	}
 	
-	.book-page .content{
+	.book-page .content {
 		margin-left: 0;
 	}
 	
-	.book-page .details{
+	.book-page .details {
+		margin-left: 0px;
+    margin-right: 0px;
+	}
+	
+	.book-page .thumbs {
 		margin-left: 0px;
 	}
 	
-	.book-page .thumbs{
-		margin-left: 0px;
-	}
-	
-	.book-page.no-image .details, .book-page.no-image .authors,  .book-page.no-image .attributes{
+	.book-page.no-image .details,
+	.book-page.no-image .authors,
+	.book-page.no-image .attributes {
 		margin-left: 0;
 	}
 }
 
-@media all and (max-width:420px){
-	.book-page .details h1{
+@media all and (max-width:420px) {
+	.book-page .details h1 {
 		margin: 0;
 	}
-}
 
-#mfPreviewBar, #mfPreviewBarShow{ display: none; visibility: hidden;}
+}

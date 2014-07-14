@@ -10,7 +10,13 @@ title: Books
       <span class="image">
         <a href="/books/{{book.url}}"><img src='{{book.image}}'></a></span>
       <div class="details">
-        <span class="title"><a href="/books/{{book.url}}">{{book.title}}</a></span>
+        <span class="title"><a href="/books/{{book.url}}">
+        {% if book.display_title != null %}
+          {{book.display_title}}
+        {% else %}
+          {{book.title}}
+        {% endif %}
+        </a></span>
         <span class="authors">{{book.authors}}</span>
       </div>
   </div>
